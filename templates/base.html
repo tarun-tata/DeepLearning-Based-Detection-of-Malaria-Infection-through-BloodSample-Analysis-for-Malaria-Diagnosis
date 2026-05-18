@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Malaria Detection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="{{ url_for('static', filename='css/main.css', v=4) }}" rel="stylesheet">      
+</head>
+
+<body>
+    <div class="header-banner text-center py-3">
+        <h5 class="mb-0 text-success font-weight-bold">Deep Learning-Based Detection of Malaria Infection through Blood Sample Analysis for Malaria Diagnosis</h5>
+    </div>
+    <div class="container-fluid mt-4">
+        {% block content %}{% endblock %}
+    </div>
+    <div class="bg-light mt-4 py-3">
+        <div class="container">
+            <div class="small text-muted">
+                <strong>Project by Team:</strong>
+                <ul class="mb-0">
+                    <li>22311A66G4 — P.Sannith Reddy</li>
+                    <li>22311A66F0 — Tarun Tata</li>
+                    <li>22311A66D5 — Jhansi Yellapragada</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <script src="{{ url_for('static', filename='js/main.js', v=5) }}" type="text/javascript"></script>    
+</footer>
+
+</html>

@@ -1,0 +1,1 @@
+{"status": "training", "stage": "phase1", "epoch": 2, "total_epochs": 10, "loss": 2.1289117336273193, "accuracy": 0.8653846383094788, "val_loss": 1.2717818021774292, "val_accuracy": 0.9328358173370361, "progress": "Epoch 2/10"}
