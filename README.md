@@ -141,7 +141,7 @@ The trained model predicts whether the uploaded blood sample image is:
 ### Convolutional Neural Network (CNN)
 Used for automatic feature extraction and image classification.
 
-### Backpropagation
+### Backpropagation algorithm
 Used for iterative weight optimization during training.
 
 ### Adam Optimizer
